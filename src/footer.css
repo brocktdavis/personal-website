@@ -8,7 +8,13 @@
     --pastel-color: #4965E4;
 }
 
+/* Things for the footer as a whole */
 .footer {
+    /* Make a flexbox, center vertically, and keep lists apart */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     background-color: var(--dark-color);
     color: var(--light-color);
 
@@ -20,30 +26,34 @@
     overflow: auto;
 }
 
-/* The Contact Info and Socials Lists */
+/* Things common to both contact info and social boxes */
 .footer ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
 
     margin: 0;
     padding: 0;
 }
 
-.contact-info {
-    float: left;
+/* For each element of the contact info list */
+.contact-info li {
+    display: flex;
+    align-items: center;
+
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border-right: 1px solid var(--light-color);
 }
 
-.contact-info li {
+/* Center the images of the social buttons vertically on the footer */
+.socials li a {
     display: flex;
     align-items: center;
 }
 
-.socials {
-    float: right;
-}
-
 /* Each icon image in the footer is 2.5em x 2.5em and has some padding */
 .icon {
-    padding: 1em;
+    padding-right: 0.75em;
     width: 2.5em;
 }

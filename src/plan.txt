@@ -1,0 +1,24 @@
+Top Banner with Links to each main area of the site:
+
+Home (url: brocktdavis.com -> brocktdavis.com/home)
+	- Welcome w/ Profile Picture
+		- Short blurb about me
+	- Footer
+        - Github, LinkedIn, Facebook
+        - Contact Info
+            - Email, Phone, Location (just ATX)
+
+    Icons needed; Github, LinkedIn, Facebook, Email, Phone, Location Pin
+    Style B/W enclosed in circle
+
+Resume (url: brocktdavis.com/resume)
+	- Resume download
+	- Pictures of projects
+
+Clash (url: brocktdavis.com/clash)
+	- Clash webapp
+
+Dark: #222222
+Light: #D6D6D6
+Saturated: #18309D
+Pastel: #4965E4

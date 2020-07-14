@@ -50,6 +50,11 @@ function ContactInfo(props) {
   return (
     <ul className='contact-info'>
       <li>
+        <p>
+          He/Him
+        </p>
+      </li>
+      <li>
         <img src={mail} alt='mail icon' className='icon' />
         <p>btdavis9999@gmail.com</p>
       </li>

@@ -1,0 +1,49 @@
+:root {
+    position: relative;
+    min-height: 100vh;
+
+    --dark-color: #222222;
+    --light-color: #D6D6D6;
+    --saturated-color: #18309D;
+    --pastel-color: #4965E4;
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    overflow: auto;
+}
+
+/* The Contact Info and Socials Lists */
+.footer ul {
+    list-style-type: none;
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info {
+    float: left;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    float: right;
+}
+
+/* Each icon image in the footer is 2.5em x 2.5em and has some padding */
+.icon {
+    padding: 1em;
+    width: 2.5em;
+}

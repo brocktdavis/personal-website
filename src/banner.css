@@ -1,0 +1,60 @@
+:root {
+	--dark-color: #222222;
+	--light-color: #D6D6D6;
+	--saturated-color: #18309D;
+	--pastel-color: #4965E4;
+}
+
+.app {
+	padding-bottom: 10em;
+}
+
+.banner {
+	/* Put and keep at top */
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	/* Across whole width of window */
+	width: 100%;
+
+	/* No  bullet points */
+	list-style-type: none;
+
+	/* No margin or padding */
+	margin: 0;
+	padding: 0;
+	
+	overflow: hidden;
+	background-color: var(--dark-color);
+}
+
+.banner-link {
+	/* Keep on left of sidebar */
+	float: left;
+}
+
+.banner-link p {
+	/* Font dectoration */
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color: var(--light-color);
+
+	/* Keep in blocks with padding but no margin*/
+	display: block;
+	padding: 14px 16px;
+	margin: 0;
+
+	/* Don't underline links */
+	text-decoration: none;
+}
+
+.banner-link p:hover {
+	background-color: #111;
+	cursor: pointer;
+}
+
+.banner-break {
+	height: 0;
+	margin-bottom: 22px;
+}

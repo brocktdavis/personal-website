@@ -1,3 +1,0 @@
-[submodule "rankings/webapp"]
-	path = rankings/webapp
-	url = https://github.com/brocktdavis/ping-pong-rankings.git

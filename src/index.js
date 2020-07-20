@@ -74,17 +74,17 @@ function Socials(props) {
   return (
     <ul className='socials'>
       <li>
-        <a href='https://github.com/brocktdavis'>
+        <a href='https://github.com/brocktdavis' target='_blank'>
           <img src={github} alt='GitHub icon' className='icon' />
         </a>
       </li>
       <li>
-        <a href='https://linkedin.com/in/brocktdavis'>
+        <a href='https://linkedin.com/in/brocktdavis' target='_blank'>
           <img src={linkedin} alt='LinkedIn icon' className='icon' />
         </a>
       </li>
       <li>
-        <a href='https://facebook.com/brock.davis.946'>
+        <a href='https://facebook.com/brock.davis.946' target='_blank'>
           <img src={facebook} alt='facebook icon' className='icon' />
         </a>
       </li>

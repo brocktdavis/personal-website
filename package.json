@@ -1,6 +1,7 @@
 {
-  "name": "playground",
-  "version": "0.1.0",
+  "name": "brocktdavis",
+  "version": "0.2.0",
+  "author": "Brock T Davis <btdavis9999@gmail.com> (https://brocktdavis.com)",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,6 +16,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brocktdavis/personal-website.git"
   },
   "eslintConfig": {
     "extends": "react-app"
